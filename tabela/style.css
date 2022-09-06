@@ -1,0 +1,29 @@
+th{
+    font-size: larger;
+}
+table{
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.nome{
+    background-color: burlywood;
+}
+.tipo{
+    background-color: burlywood;
+}
+.agua{
+    color: white;
+    background-color: blue;
+}
+.fogo{
+    color: white;
+    background-color: red;
+}
+.vento{
+    color: black;
+    background-color: yellow;
+}
+.escuridao{
+    color: white;
+    background-color: purple;
+}
