@@ -1,0 +1,23 @@
+h2 {
+    background-color: rgb(84, 209, 169);
+}
+
+table {
+    width: 100%;
+    margin-bottom: .5em;
+    table-layout: fixed;
+    text-align: center;
+}
+
+fieldset {
+
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+legend{
+
+    text-align: start;
+    font-size: 50px;
+
+}
