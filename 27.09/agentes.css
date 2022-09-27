@@ -1,0 +1,29 @@
+h1 {
+    color: white;
+    font-family: Impact, fantasy;
+}
+
+dd {
+    color: white;
+}
+
+dt {
+    color: white;
+}
+
+.lista {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0px 48px;
+    color: #000080;
+    font-size: 25px;    
+}
+
+.lista dd {
+    display: inline-block;
+    padding: 15px;
+}
+
+.icones {
+    width: 30px;
+}

@@ -1,0 +1,46 @@
+fieldset {
+
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.agentes {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.sagelink:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+.sagelink:link {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.cypherlink:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.cypherlink:link {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.reynalink:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: purple;
+}
+
+.reynalink:link {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
