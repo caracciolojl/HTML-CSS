@@ -1,0 +1,45 @@
+* {
+  text-shadow: 1px 1px 1px #ffffff;
+}
+
+.geracao{
+  background-color: #016001;
+  width: 30%;
+  font-size: 65px;
+  text-shadow: 2px 1px 2px #ffffff;
+}
+.preco{
+  background-color: #e55757;
+  width: 25%;
+  color: white;
+  font-size: 30px;
+}
+table{
+  background-color: black;
+  width: 100%;
+  margin-bottom : .5em;
+  table-layout: fixed;
+  text-align: center;
+  border-spacing: 10px;
+}
+th, td {
+  padding: 10px;
+}
+body{
+  background-image: url("binary.png");
+}
+.nome{
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 30px;
+}
+.tipo{
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 30px;
+  background-color: rgb(44, 20, 177);
+}
+img{
+  width: 90px;
+  height: 90px;
+}

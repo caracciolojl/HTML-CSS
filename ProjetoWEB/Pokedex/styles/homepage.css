@@ -1,0 +1,55 @@
+body {
+    background-color: #ffbfb0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+  }
+  
+
+.pokedex{
+    color: red; 
+    text-shadow: 2px 3px 3px #000000;
+    text-align: center;
+ }
+
+ .pokedex-info {
+    color: black;
+    flex-wrap: nowrap;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 435px;
+ }
+
+a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+a:hover {
+    font-size: 170%;
+    color: #000000;
+    transition: 0.5s;
+}
+
+.container {
+    justify-content: center;
+    display: grid;
+    color: black;
+    align-items: center;
+}
+
+
+
+
+
+
