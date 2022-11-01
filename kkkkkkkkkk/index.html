@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morgou</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="nomedegente.js"></script>
+    <title>Clicar no botão</title>
+    <script>
+        varmensage;
+        function load() {
+            mensage = prompt("seu nome?");
+        }
+        function touch() {
+            alert(mensage)
+
+        }
+    </script>
+    <title>Clicar no botão</title>
+    <script>
+        function touch() {
+            alert(document.title);
+        }
+    </script>
+</head>
+
+<body onload="load()">
+
+    <script>
+        MinhaVariavel = "aaaaaa"
+        var MinhaVariavel = "bbbbbb"
+    </script>
+
+    <p>
+        <input class="alternativas" name="resposta" type="button" value="A" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="B" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="C" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="D" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="E" onclick='alert("Resposta Correta!")' />
+    </p>
+    <input type="button" value="Clique Aqui!" onclick='touch()'>
+    <input type="button" value="Enviar" onclick='alert("Resposta Enviada!")'>
+    <script> valor = 30
+        document.write("<p>Minha primeira linha</p>")
+        document.write("<p>Nesta linha aparecerá o resultado de : " + (10 * 10 + valor) + "</p>") 
+    </script>
+    <script>function Idade(Anos) { if (Anos > 17) { alert("Maior de Idade") } else { alert("Menor de Idade") } } </script>
+    </head>
+
+    <body>
+        <form> <input type=text size=2 maxlength=2 name="Tempo" onchange="Idade(Tempo.value)"> </form>
+    </body>
+
+</html>
