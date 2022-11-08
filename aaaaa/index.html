@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="nomedegente.js"></script>
+    <title>DOM Sample 1</title>
+    <!-- <script>
+        varmensage;
+        function load() {
+            mensage = prompt("seu nome?");
+        }
+        function touch() {
+            alert(mensage)
+
+        }
+    </script> -->
+    <script>
+        function touch() {
+            alert(document.title);
+        }
+    </script>
+
+    <script>
+        function setResults() {
+            var temp =
+                document.getElementById("dados").value;
+            if (document.getElementById("LC").checked) {
+                temp = temp.toLowerCase();
+            }
+            if (document.getElementById("UC").checked) {
+                temp = temp.toUpperCase();
+            }
+            document.getElementById("dados").value =
+                temp;
+        }
+    </script>
+</head>
+
+<body onload="load()">
+
+    Result: <input type="text" id="dados" size="20" value="TeStE"><br>
+    <input type="radio" name="grupo1" id="LC" value="Lower" checked>
+    Lower Case <br>
+    <input type="radio" name="grupo1" id="UC" value="Upper">Upper Case
+    <input type="button" onclick="setResults();" value="Modificar">
+
+    <hr>
+
+    information about this document.<br>
+    <script type="text/javascript">
+        document.write("<br>Title: ", document.title);
+        document.write("<br>Referrer: ", document.referrer);
+        document.write("<br>Domain:", document.domain);
+        document.write("<br>URL: https://github.com/caracciolojl/HTML-CSS/tree/main/kkkkkkkkkk", document.URL);
+
+    </script>
+
+    <hr>
+
+    <p>
+        <input class="alternativas" name="resposta" type="button" value="A" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="B" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="C" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="D" onclick='alert("Resposta Errada!")' />
+        <input class="alternativas" name="resposta" type="button" value="E" onclick='alert("Resposta Correta!")' />
+    </p>
+    <input type="button" value="Clique Aqui!" onclick='touch()'>
+    <input type="button" value="Enviar" onclick='alert("Resposta Enviada!")'>
+
+    <hr>
+
+    <script> valor = 30
+        document.write("<p>Minha primeira linha</p>")
+        document.write("<p>Nesta linha aparecerá o resultado de : " + (10 * 10 + valor) + "</p>") 
+    </script>
+
+</html>
